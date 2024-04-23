@@ -18,4 +18,3 @@ Route::post('login', [LoginController::class, 'login']);
 
 
 Route::get('/', [RockPaperScissorsController::class, 'index'])->name('home');
-Route::post('/play', [RockPaperScissorsController::class, 'play'])->name('play');
